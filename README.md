@@ -4,9 +4,9 @@ Meme is an image processing app that allows users to create, share and download 
 
 # Implementation
 
-**Conttainers:** 
+**Conttainers:** The app opens onto a tab bar conroller which offers two modes to view the memes which were downloaded to the app -- a table view and a collection view. The tab bar segues to navigation controllers whch give the universal title the two central views and an "add" button ("+") to create new memes.
 
-**Meme editor:**
+**Meme editor:** Pressing the "+" button opens the meme editor. Here, users can pick photos form their files or take new photos directlty from the camera. They can also add text to create their meme. Once they are happy with the result, they can press the save button and the app will take a screenshot of their work and give them the option to share on social media. Records of all memes saved can be found thorough the tab bar controller.
 
 # Libraries and frameworks
 UIKit
