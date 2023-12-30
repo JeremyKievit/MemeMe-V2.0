@@ -12,8 +12,8 @@ MemeMe is an image-processing app that allows users to create, share and downloa
 
 # Future work
 Some minor improvements to improve efficiency:
-* Replace the two navigation controllers with a new root navigation controller that segues to the tab bar controller. This would help to eliminate redundancy and allow for more modularity.
-* Create a single SentMemesVC class with the core functionality for the navigation controller and subclass it to create the separate UITableView and UICollectionView view controllers with their respective delegates.
+* Replace the two navigation controllers with a new root navigation controller that segues to the tab bar controller. This would help to eliminate the redundancy of having two identical navigation controllers with independent (but identical) IB actions and outlets.
+* Create a single SentMemesVC class with the core functionality for the navigation controller and subclass it to create the separate UITableView and UICollectionView controllers with their respective delegates.
 * Write unit tests.
 
 # Libraries and frameworks
