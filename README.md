@@ -14,6 +14,12 @@ UIKit
 # Installation
 Download the zip folder and open the file "MemeMe V2.0.xcodeproj" in Xcode.
 
+# Future work
+
+* Replace the two navigation controllers with a new root navigation controller that segues to the tab bar controller. This would help to eliminate redundancy and allow for more modularity for future improvements.
+* Create a single SentMemesVC class with the core functionality for the navigation controller and extend it to create the separate UITableView and UICollectionView view controllers.
+* Write unit tests.
+
 # License
 
 All code is original and was written by me. The project was developed as part of the iOS Developer Nanodegree Program, in accordance with the [project rubric](https://docs.google.com/document/d/1G2onkzN_weWmiYErhQJw1lB9-zxM-2TQ0N5bNMAaI7I/pub).
